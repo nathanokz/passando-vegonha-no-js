@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(51, 52, 52);
+    background-color: yellow;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,25 +11,26 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    border: 1px black;
+    border-radius: 5px;
 }
 
 .container{
-    background-color: white;
-    padding: 20px;
-    border: 1px solid black;
-    border-radius: 10px;
+    background-color: yellow;
     margin: 5px;
+    border: 1px black;
+    border-radius: 5px;
+
 }
 
 input{
-    margin: 5px;
-    padding: 5px;
+    margin: 7px;
+    border: 1px black;
+    border-radius: 5px;
 }
 
 button{
-    padding: 5px;
-    background-color: white;
-    border-radius: 10px;
-    border: 1px solid black;
+    border-radius: 5px;
+    border: 1px black;
+    margin: 7px;
 }
-
